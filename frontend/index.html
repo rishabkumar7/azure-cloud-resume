@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishab Kumar</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/png" href="/assets/favicon.png">
+</head>
+
+<body>
+
+    <!-- header area -->
+    <header id="header">
+        <div class="row m-0">
+            <div class="col-3 bgcolor-black">
+                <nav class="primary-nav navbar-expand-md">
+                    <div class="site-title text-center text-light py-5">
+                        <a href="#" class="navbar-brand font-staat font-size-40">RK</a>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <a href="#home" class="nav-item nav-link text-white-50 font-os font-size-16 active">Home</a>
+                        <a href="#about_me"
+                            class="nav-item nav-link text-white-50 font-os font-size-16 active">About</a>
+                        <a href="#awards"
+                            class="nav-item nav-link text-white-50 font-os font-size-16 active">Achievements</a>
+                        <a href="#portfolio"
+                            class="nav-item nav-link text-white-50 font-os font-size-16 active">Portfolio</a>
+                        <a href="https://blog.rishabkumar.ga/"
+                            class="nav-item nav-link text-white-50 font-os font-size-16 active" target="blank">Blog</a>
+                        <a href="#footer" class="nav-item nav-link text-white-50 font-os font-size-16 active">Contact
+                            Me</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <button class="toggle-button"><span class="fas fa-bars fa-2x"></span></button>
+    </header>
+    <!-- #header area -->
+
+    <main id="site-main">
+        <div class="row m-0">
+            <div class="col-md-9 offset-md-3 px-0">
+
+                <!-- site-banner area -->
+                <section class="site-banner bg-light" id="home">
+                    <div class="banner-area">
+                        <div class="author text-center">
+                            <div class="author-img"></div>
+                            <h1 class="text-black font-staat font-size-40 text-uppercase py-3">Rishab Kumar</h1>
+                            <h5 class="text-black font-ram font-size-27">I'm a <span id="typed"></span></h5>
+                        </div>
+                    </div>
+                </section>
+                <!-- #site-banner area -->
+
+                <!-- about me area -->
+                <section class="about px-4 my-5" id="about_me">
+                    <div class="me py-5">
+                        <h5 class="text-uppercase font-os font-size-16 text-muted">information</h5>
+                        <h1 class="text-uppercase font-staat font-size-34">About Me</h1>
+                    </div>
+                    <div class="row m-0">
+                        <div class="col-sm-5 pl-0">
+                            <img src="./assets/banner.png" alt="profile image" class="img-fluid">
+                        </div>
+                        <div class="col-sm-6">
+                            <h6 class="text-uppercase font-os font-size-16 text-muted">About Me</h6>
+                            <h5 class="font-ram font-size-20 py-2">I'm Rishab Kumar & a <span id="typed_2"></span></h5>
+                            <p class="font-ram text-black-50 py-2">
+                                I try to create noice web experiences. I am experienced in Amazon Web Services and can
+                                help clients with several related technologies. A young technical guy with experience in
+                                creating solutions for customers. Dynamic and goal-oriented. Confident and poised in
+                                interactions with individuals at all levels. Focused and dedicated; I have a good eye
+                                for detail and put in my best effort in time management and prioritization.
+                            </p>
+                            <div class="d-flex flex-row flex-wrap justify-content-between py-4">
+                                <div class="d-flex flex-column">
+                                    <p class="font-ram"><b>Website: </b><span
+                                            class="text-black-50">www.rishabkumar.ga</span></p>
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <p class="font-ram"><b>Diploma: </b><span class="text-black-50">Computer
+                                            Networking</span></p>
+                                </div>
+                            </div>
+                            <button type="submit" onclick="window.open('/assets/RishabResume.pdf')"
+                                class="btn btn-dark text-uppercase mr-3">Download CV</button>
+                        </div>
+                    </div>
+                </section>
+                <!-- #about me area -->
+
+                <!-- ability -->
+                <section class="skill px-4 py-5 bg-light" id="services">
+                    <div class="ability py-3">
+                        <h5 class="text-uppercase font-os font-size-16 text-muted">Ability</h5>
+                        <h1 class="text-uppercase font-staat font-size-34">My skills</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 pl-4">
+                            <p class="font-ram font-size-16 text-black-50 pb-3">
+                                I am fluent with HTML/CSS and JavaScript. Have build projects with
+                                frameworks/libraries : React, Vue and Gatsby.
+                                Familiar with GIT/Source control.
+                                </br>
+                                Also have some experience with MySQL/MSSQL and MongoDB
+                            </p>
+                            <ul class="list-inline dev-icons">
+                                <li class="list-inline-item">
+                                    <i class="fab fa-html5"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="fab fa-css3-alt"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="fab fa-node-js"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="fab fa-aws"></i>
+                                </li>
+                            </ul>
+                        </div>
+                </section>
+                <!-- #ability -->
+
+
+                <!-- awards -->
+                <section class="awards px-4 py-5" id="awards">
+                    <div class="do py-5">
+                        <h5 class="text-uppercase font-os font-size-16 text-muted">What I have achieved</h5>
+                        <h1 class="text-uppercase font-staat font-size-34"><i class="fas fa-award"></i> Awards &amp;
+                            Certifications</h1>
+                    </div>
+                    <div class="w-100">
+
+                        <ul class="fa-ul mb-0 font-ram font-size-16 text-black-50 pb-3">
+                            <li>
+                                <i class="fa-li fa fa-trophy text-warning"></i>
+                                AWS Certified Developer Associate
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-trophy text-warning"></i>
+                                AWS Certified Solutions Architect Associate
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-trophy text-warning"></i>
+                                AWS Certified Cloud Practitioner
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-trophy text-warning"></i>
+                                Oracle Cloud Infrastructure Foundations 2020 Certified Associate
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-trophy text-warning"></i>
+                                Dean's List - Computer Networking & Technical Support
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!--<div class="row">
+                        <div class="col-md-4 col-sm-6 mb-4 text-center">
+                            <div class="panel border p-4">
+                                <span class="icon text-secondary"><i class="fas fa-directions fa-3x"></i></span>
+                                <h4 class="font-ram py-4">Art Direction</h4>
+                                <p class="font-ram font-size-16 text-black-50">
+                                    Fusce suscipit, ante a hendrerit thelery ullamcorper, risus nisl cursus purus the
+                                    viverra ante nulla vel justo.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section> -->
+                <!-- #services -->
+
+                <!-- work -->
+                <section class="work py-5 px-4 bg-light" id="portfolio">
+                    <div class="py-3">
+                        <h5 class="text-uppercase font-os font-size-16 text-muted">Porfolio</h5>
+                        <h1 class="text-uppercase font-staat font-size-34">Creative Work</h1>
+                    </div>
+                    <div class="row">
+                        <div class="frame col-xs-6"></div>
+                        <div class="frame col-sm-4 pb-4">
+                            <a href="https://covid-19.rishabkumar.ga"><img src="./assets/work/01.png" title="Covid App"
+                                    alt="work1" class="img-fluid"></a>
+                            <div class="details">
+                                <h2>COVID-19 Tracker</h2>
+                                <p><a href="https://covid-19.rishabkumar.ga" title="Live Site"><i
+                                            class="far fa-eye eye"></i></a></p>
+                                <p><a href="https://github.com/rishabkumar7/covid-19" title="Source Code"><i
+                                            class="fab fa-github-square giti"></i></a></p>
+                            </div>
+                        </div>
+                        <div class="frame col-sm-4 pb-4">
+                            <a href="https://weatherdashboard.rishabkumar.ga/"> <img src="./assets/work/02.png"
+                                    title="Weather Dashboard" alt="work1" class="img-fluid"></a>
+                            <div class="details">
+                                <h2>Weather Dashboard</h2>
+                                <p><a href="https://weatherdashboard.rishabkumar.ga/" title="Live Site"><i
+                                            class="far fa-eye eye"></i></a>
+                                </p>
+                                <p><a href="https://github.com/rishabkumar7/weatherDashboard" title="Source Code"><i
+                                            class="fab fa-github-square giti"></i></a></p>
+                            </div>
+                        </div>
+                        <div class="frame col-sm-4 pb-4">
+                            <a href="https://blog.rishabkumar.ga"><img src="./assets/work/03.png" alt="work1"
+                                    title="My Blog" class="img-fluid"></a>
+                            <div class="details">
+                                <h2>My Blog with Gatsby</h2>
+                                <p><a href="https://blog.rishabkumar.ga" title="Live Site"><i
+                                            class="far fa-eye eye"></i></a></p>
+                                <p><a href="https://github.com/rishabkumar7/myblog" title="Source Code"><i
+                                            class="fab fa-github-square giti"></i></a></p>
+                            </div>
+                        </div>
+                        <div class="frame col-sm-4 pb-4">
+                            <a href="https://mainproj-web.herokuapp.com/"><img src="./assets/work/04.png" alt="work1"
+                                    title="MyBrary" class="img-fluid"></a>
+                            <div class="details">
+                                <h2>MyBrary</h2>
+                                <p><a href="https://mainproj-web.herokuapp.com" title="Live Site"><i
+                                            class="far fa-eye eye"></i></a></p>
+                                <p><a href="https://github.com/rishabkumar7/mybrary" title="Source Code"><i
+                                            class="fab fa-github-square giti"></i></a></p>
+                            </div>
+                        </div>
+                        <div class="frame col-sm-4 pb-4">
+                            <a href="https://hackernews-clone.rishabkumar.ga/"><img src="./assets/work/05.png"
+                                    title="Hackernews Clone" alt="work1" class="img-fluid"></a>
+                            <div class="details">
+                                <h2>HackeNews Clone</h2>
+                                <p><a href="https://hackernews-clone.rishabkumar.ga/" title="Live Site"><i
+                                            class="far fa-eye eye"></i></a>
+                                </p>
+                                <p><a href="https://github.com/rishabkumar7/hackernews" title="Source Code"><i
+                                            class="fab fa-github-square giti"></i></a></p>
+                            </div>
+                        </div>
+                        <div class="frame col-sm-4 pb-4">
+                            <a href="https://git-fetch.rishabkumar.ga/"><img src="./assets/work/06.png" alt="work1"
+                                    title="Git-Fetch App" class="img-fluid"></a>
+                            <div class="details">
+                                <h2>GitFetch App</h2>
+                                <p><a href="https://git-fetch.rishabkumar.ga/" title="Live Site"><i
+                                            class="far fa-eye eye"></i></a></p>
+                                <p><a href="https://github.com/rishabkumar7/git-fetch-app" title="Source Code"><i
+                                            class="fab fa-github-square giti"></i></a></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- #work -->
+
+                
+                <!--footer-->
+                <footer id="footer" class="pt-5 px-3">
+                    <div id="contact_us">
+                        <div class="py-3 px-2">
+                            <h5 class="text-uppercase font-os font-size-16 text-muted">Location</h5>
+                            <h1 class="text-uppercase font-staat font-size-34">Contact Me</h1>
+                        </div>
+                        <div class="row py-5">
+                            <div class="col-sm-4 pl-4">
+                                <h6 class="text-uppercase font-ram font-size-16 text-dark">Rishab Kumar</h6>
+                                <p class="font-ram font-size-16 text-black-50">ADDRESS: Kingston, ON
+                                    Canada.</p>
+                            </div>
+                            <div class="col-sm-7 py-2 px-2">
+                                <h6 class="text-uppercase font-ram font-size-16">Get in touch</h6>
+                                <form class="py-3" method="POST" data-netlify="true">
+                                    <div class="row">
+                                        <div class="col">
+                                            <input type="text" name="Name" class="form-control" placeholder="Name">
+                                        </div>
+                                        <div class="col">
+                                            <input type="email" name="Email" class="form-control" placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <textarea name="message" id="" cols="30" rows="3" class="form-control my-4"
+                                        placeholder="Message"></textarea>
+                                    <button type="submit" class="btn btn-dark">Say Hello!</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="row bg-light py-5">
+                            <div class="col-sm-4 my-5 text-center">
+                                <h6 class="font-ram font-size-16 text-black-50">&copy;2020 Rishab. All rights reserved
+                                </h6>
+                            </div>
+                            <div class="col-sm-4 my-4 text-center">
+                                <div class="footer-title">
+                                    <p class="description font-os font-size-16 text-black-50 text-uppercase">Made with ❤
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="social-icons col-sm-4 my-4 text-center">
+                                <a href="https://www.linkedin.com/in/rishab-kumar-072118125/" target="blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://github.com/rishabkumar7" target="blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://twitter.com/rishabk7" target="blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"
+        integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>
+
+    <script src="./vendor/typed/typed.min.js"></script>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
