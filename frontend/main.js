@@ -3,7 +3,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 });
 
 
-const functionApi = 'https://resume-counter.azurewebsites.net/api/GetCounter';
+const functionApi = 'https://rishabresume.azurewebsites.net/api/HttpTrigger1?code=HDldDyHHM2jSTsRA283DMOL9FYdlsJYXg5Z3Hie25d7aYjWwaMsqTw==';
 
 const getVisitCount = () => {
   let count = 30;
@@ -13,7 +13,7 @@ const getVisitCount = () => {
     })
     .then(response => {
       console.log("Website called function API.");
-      count = response.count;
+      count = response;
       document.getElementById('counter').innerText = count;
     }).catch(function (error) {
       console.log(error);
