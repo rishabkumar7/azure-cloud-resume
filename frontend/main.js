@@ -12,8 +12,8 @@ const getVisitCount = () => {
       return response.json()
     })
     .then(response => {
-      console.log("Hello 👋, you are visitor number - " + count);
       count = response;
+      console.log("Hello 👋, you are visitor number - " + count);
       document.getElementById('counter').innerText = count;
     }).catch(function (error) {
       console.log(error);
