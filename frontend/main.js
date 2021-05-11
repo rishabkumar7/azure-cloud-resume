@@ -12,7 +12,7 @@ const getVisitCount = () => {
       return response.json()
     })
     .then(response => {
-      console.log("Hello👋, this visit is being counted.");
+      console.log("Hello 👋, you are visitor number - " + count);
       count = response;
       document.getElementById('counter').innerText = count;
     }).catch(function (error) {
