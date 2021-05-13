@@ -6,6 +6,7 @@ Hello! :wave:
 This is my resume hosted in Azure. This is part of the [A Cloud Guru Challenge](https://acloudguru.com/blog/engineering/cloudguruchallenge-your-resume-in-azure).
 
 :star:[My Resume](https://resume.rishab.cloud/):star:
+[Blog Post]()
 
 ## Introduction
 
@@ -13,11 +14,11 @@ Challenges:
 
 - [x] Create a GitHub repo.
 - [x] Use HTML and CSS to build the website and store the code in the repo.
-- [ ] Add a visitor count to the website.
+- [x] Add a visitor count to the website.
 - [x] Deploy the website to Azure Blob Storage.
 - [x] Enable HTTPS and custom domain support.
 - [x] Set up GitHub Actions.
-- [ ] Write a blog post.
+- [x] Write a blog post.
 
 ## My Progress
 
