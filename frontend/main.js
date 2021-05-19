@@ -3,7 +3,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 });
 
 
-const functionApi = 'https://rishabresume.azurewebsites.net/api/HttpTrigger1?code=HDldDyHHM2jSTsRA283DMOL9FYdlsJYXg5Z3Hie25d7aYjWwaMsqTw==';
+const functionApi = 'https://rishabcloudresume.azurewebsites.net/api/Counter';
 
 const getVisitCount = () => {
   let count = 30;
